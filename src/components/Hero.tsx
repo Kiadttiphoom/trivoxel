@@ -25,7 +25,7 @@ export const HeroSection = () => {
             <h1 className="text-4xl sm:text-5xl md:text-8xl font-black leading-[1.1] md:leading-[1] tracking-tighter mb-[var(--token-space-sm)] h-auto min-h-[110px] md:min-h-[400px] w-full text-center lg:text-left">
               Full Stack Developer <br/>
               <span className="text-[var(--token-brand-primary)] opacity-60">&&</span>{' '}
-              <TypewriterText texts={["Java Specialist", "Cloud Architect", "UX/UI Focused"]} />
+              <TypewriterText texts={["Java Backend Developer", "Java Web Developer"]} />
             </h1> 
             <div className="absolute -left-6 top-1/2 -translate-y-1/2 w-1.5 h-3/4 bg-gradient-to-b from-[var(--token-brand-primary)] to-transparent rounded-full hidden md:block opacity-30"></div>
           </div>

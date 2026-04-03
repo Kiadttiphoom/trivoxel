@@ -74,7 +74,7 @@ export const IdentityWorkspace = ({ sectionProps }: IdentityProps) => {
                  </div>
                  <div className="bg-white/10 backdrop-blur-xl px-4 py-2 rounded-xl border border-white/20">
                     <div className="text-[8px] font-black uppercase opacity-60 mb-1">Communication</div>
-                    <div className="font-black text-[12px]">Thai & English (Proficient)</div>
+                    <div className="font-black text-[12px]">Thai: Native, English: Fair</div>
                  </div>
               </div>
             </div>
@@ -92,9 +92,9 @@ export const IdentityWorkspace = ({ sectionProps }: IdentityProps) => {
              <h4 className="font-black text-xl mb-6 uppercase italic">Back-End Core</h4>
              <div className="space-y-4">
                 {[
-                  { n: 'Java Servlet', l: 5 },
-                  { n: 'Apache Tomcat', l: 5 },
-                  { n: 'RESTful API', l: 5 }
+                  { n: 'Java Servlet', l: 4 },
+                  { n: 'Apache Tomcat', l: 4 },
+                  { n: 'RESTful API', l: 4 }
                 ].map(s => (
                   <div key={s.n} className="flex items-center justify-between group/item">
                      <span className="text-[10px] font-black uppercase opacity-60 group-hover:opacity-100">{s.n}</span>
@@ -115,9 +115,9 @@ export const IdentityWorkspace = ({ sectionProps }: IdentityProps) => {
              <h4 className="font-black text-xl mb-6 uppercase italic">Modern Stack</h4>
              <div className="space-y-4">
                 {[
-                  { n: 'Spring Boot', l: 4 },
+                  { n: 'Spring Boot', l: 3 },
                   { n: 'Next.js 15', l: 4 },
-                  { n: 'SQL Server', l: 5 },
+                  { n: 'SQL Server', l: 4 },
                   { n: 'TypeScript', l: 3 }
                 ].map(s => (
                   <div key={s.n} className="flex items-center justify-between">

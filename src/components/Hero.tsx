@@ -37,7 +37,7 @@ export const HeroSection = () => {
         </motion.div>
 
         {/* Visual Block: Mascot (Order 2 on Mobile) */}
-        <div className="flex flex-col items-center gap-12 lg:gap-0 order-2 lg:order-none">
+        <div className="flex flex-col items-center gap-12 lg:gap-0 order-2">
           <motion.div 
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
